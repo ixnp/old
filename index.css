@@ -1,0 +1,125 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+    background-color: FFD82E;
+
+
+    }
+    .pizza4{
+      width: 100%;
+      height: 50%;
+      background-color: FFD82E;
+      background-image: url(pizza3.jpg);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100%;
+
+
+    }
+
+    header {
+        background-color:FF1006 ;
+        padding: 20px;
+        border-width: 5px;
+        border-color: FF8413;
+        border-style: solid;
+        margin: 3px;
+
+        text-align: center;
+        font-size: 30px ;
+
+
+        display: block ;
+
+    }
+    nav {
+        float:none;
+    }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        background-color: FF8413;
+
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+
+
+
+    }
+
+.pizza5{
+  float:left;
+}
+    a {
+        color: red;
+        font-weight: bold;
+        border-color: red;
+        border-width: 4px;
+        border-style: solid;
+
+    }
+    section {
+
+        float: left;
+        padding: 10px;
+        padding-top: 70px;
+        width: 100%;
+        display: inline-block;
+        float: left;
+        margin: 0 auto;
+
+    }
+    .pizza1{
+      width: 60%;
+      float: left;
+      padding: 10px;
+      border-color: FF8413;
+      border-width: 5px;
+      border-style: solid;
+      background-color: E84006;
+      margin: 0 auto;
+
+    }
+    .pizza2{
+      background-color:
+      float: right;
+      width: 900px;
+      padding: 10x;
+      border-color: E84006;
+      border-width: 5px;
+      border-style: solid;
+      background-color: FF8413 ;
+      margin: 0 auto;
+
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }

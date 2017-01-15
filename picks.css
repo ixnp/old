@@ -1,0 +1,120 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+      background-color: #FFE300;
+    }
+    body {
+      width: 120%;
+       height: 100%;
+
+    }
+    header {
+        background-color:red ;
+        padding: 10px;
+        border: #000000 solid 5px;
+        margin: 50px;
+        font-size:40 ;
+        display: inline-flex;
+    }
+    nav {
+        float: left;
+    }
+    nav ul {
+        padding:25px ;
+        float: left;
+        border-bottom:auto ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        border: 5px solid black;
+        background-color: red;
+        color: 002AE8;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: center;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        font-size: 20;
+        display: inline-block;
+        float: none;
+    }
+    section p {
+      padding: 15px;
+      font-size: 30;
+    }
+    img {
+      border: 10px solid white;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:red;
+        padding:15px;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        text-align: center;
+        font-size: 20;
+        background-color:clear;
+        padding: 15px;
+        color:#000000;
+        clear: both;
+        display: block;
+
+    }
+
+
+    th {
+        height: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 30 px;
+    font-style: oblique;
+    font-family: cursive;
+    align-content: center;
+    }
+    table {
+      border-spacing: 0.5rem;
+      border-collapse: separate;
+      width: 100%;
+      border-style: groove;
+      border-width:3px;
+      border-color: #081c30;
+      margin-left: 7%;
+
+
+    }
+    td {
+        height: 50px;
+        vertical-align: bottom;
+    padding: 15px;
+
+    }
+    .subTitle > th{
+      font-size: 15 px;
+      text-align: left;
+      background-color: #78d22d;
+    }
+    tr:hover {
+      background-color: #b9bc8f;
+      color: #8b2789;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
