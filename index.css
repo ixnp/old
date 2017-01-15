@@ -6,15 +6,15 @@ there are definitely some properties you should add!*/
       height: 100%;
     }
     body {
-    background-color: #FFD82E;
+    background-color: FFD82E;
 
 
     }
     .pizza4{
       width: 100%;
       height: 50%;
-      background-color: #FFD82E;
-      background-image: url(pizza3.jpg);
+      background-color: FFD82E;
+      background-image: url(pizza3.JPG);
       background-position: top;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -23,18 +23,22 @@ there are definitely some properties you should add!*/
     }
 
     header {
-        background-color:#FF1006 ;
+        background-color:FF1006 ;
         padding: 20px;
         border-width: 5px;
-        border-color: #FF8413;
+        border-color: FF8413;
         border-style: solid;
         margin: 3px;
+
         text-align: center;
         font-size: 30px ;
+
+
         display: block ;
+
     }
     nav {
-        float: center;
+        float:none;
     }
     nav ul {
         padding: ;
@@ -44,7 +48,7 @@ there are definitely some properties you should add!*/
     }
     nav li {
         float: left;
-        background-color: #FF8413;
+        background-color: FF8413;
 
     }
     nav li a {
@@ -52,10 +56,18 @@ there are definitely some properties you should add!*/
         height: 25px;
         padding: 12px 18px 8px 18px;
         vertical-align: middle;
+
+
+
     }
-    g1 {
+
+.pizza5{
+  float:left;
+}
+    a {
         color: red;
         font-weight: bold;
+        border-color: red;
         border-width: 4px;
         border-style: solid;
 
@@ -111,43 +123,3 @@ there are definitely some properties you should add!*/
         clear: both;
         display: block;
     }
-
-        th {
-            height: 100px;
-        text-align: center;
-        padding: 10px;
-        background-color: #4CAF50;
-        color: white;
-        font-size: 30 px;
-        font-style: oblique;
-        font-family: cursive;
-        align-content: center;
-        }
-        table {
-          border-spacing: 0.5rem;
-          border-collapse: separate;
-          width: 100%;
-          border-style: groove;
-          border-width:3px;
-          border-color: #081c30;
-          margin-left: 7%;
-
-
-        }
-        td {
-            height: 50px;
-            vertical-align: bottom;
-        padding: 15px;
-
-        }
-        .subTitle > th{
-          font-size: 15 px;
-          text-align: left;
-          background-color: #78d22d;
-        }
-        tr:hover {
-          background-color: #b9bc8f;
-          color: #8b2789;
-          font-weight: bold;
-          font-family: sans-serif;
-        }
