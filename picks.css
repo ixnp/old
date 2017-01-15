@@ -1,120 +1,98 @@
-/* Note to students: Some properties are given to you to fill out,
-others you can modify as they stand, and if you have time,
-there are definitely some properties you should add!*/
+<html>
+  <head>
+    <title> Federation of Pizza Appreciators </title>
 
-    html {
-      height: 100%;
-      background-color: #FFE300;
-    }
-    body {
-      width: 120%;
-       height: 100%;
+  <link href="index.css" type="text/css" rel="stylesheet"></link>
 
-    }
-    header {
-        background-color:red ;
-        padding: 10px;
-        border: #000000 solid 5px;
-        margin: 50px;
-        font-size:40 ;
-        display: inline-flex;
-    }
-    nav {
-        float: left;
-    }
-    nav ul {
-        padding:25px ;
-        float: left;
-        border-bottom:auto ;
-        list-style-type: none;
-    }
-    nav li {
-        float: left;
-    }
-    nav li a {
-        display: block;
-        border: 5px solid black;
-        background-color: red;
-        color: 002AE8;
-        height: 25px;
-        padding: 12px 18px 8px 18px;
-        vertical-align: center;
-    }
-    a {
-        color: ;
-    }
-    section {
-        width: 73%;
-        font-size: 20;
-        display: inline-block;
-        float: none;
-    }
-    section p {
-      padding: 15px;
-      font-size: 30;
-    }
-    img {
-      border: 10px solid white;
-    }
-    aside {
-        width: 17%;
-        display: inline-block;
-        background-color:red;
-        padding:15px;
-        min-height: 100%;
-    }
-    aside ul {
-        list-style-type: none;
-    }
-    footer {
-        width: 790px;
-        text-align: center;
-        font-size: 20;
-        background-color:clear;
-        padding: 15px;
-        color:#000000;
-        clear: both;
-        display: block;
+  </head>
+  <body>
+    <section class="pizza3">
+    <header> <font color="white"> Federation of Pizza Appreciators </font> </header>
+    <article>
+    <nav>
 
-    }
+      <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="picks.html">Pizza Place Ranking</a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/History_of_pizza"> History of Pizza </a>
+          </li>
+          <li>
+            <a href="https://www.buzzfeed.com/chelseypippin/burn-the-roof-of-your-mouth-abroad?utm_term=.qa2rr8rw16#.cq2eeReVMx">Pizza From Around The World</a>
+          </li>
+      </ul>
 
+    </nav>
+  </article>
+  </section>
+    <article>
+       <p> Where to find the best places for <a href="https://en.wikipedia.org/wiki/Pizza">pizza</a> in the greater seattle area.</p>
+    </article>
+    <article>
+      <table border="5" align="center">
+      <TR>
+        <th colspan="5">
+          <h3> <br>Seattle's top <img src="http://4.bp.blogspot.com/-XCE5t13m9do/UPSVE0C0QkI/AAAAAAAAAB0/PtgIuR0uCm8/s1600/pizza-cartoon-photoxpress_18240012.jpg" width="50" height="50" alt="pizza"> picks</h3>
+        </th>
+      </tr>
+      <tr class="subTitle">
+            <th>Maniker</th>
+            <th>Take me there</th>
+            <th>Buzz to order</th>
+            <th>Ratings</th>
+            <th>Offers</th>
+         </TR>
+      <tr>
+        <td><a href="https://www.yelp.com/biz/italian-family-pizza-seattle?osq=best+pizza">Italian Family Pizza</td>
+          <td><a href="https://www.yelp.com/map/italian-family-pizza-seattle">1028 Madison St, Seattle, WA 98104</td>
+            <td>(206) 538-0040</td>
+              <td>4.5</td>
+                <td>Italian</td>
+      </tr>
 
-    th {
-        height: 100px;
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 30 px;
-    font-style: oblique;
-    font-family: cursive;
-    align-content: center;
-    }
-    table {
-      border-spacing: 0.5rem;
-      border-collapse: separate;
-      width: 100%;
-      border-style: groove;
-      border-width:3px;
-      border-color: #081c30;
-      margin-left: 7%;
+      <tr>
+        <td><a href="http://seriouspieseattle.com/virginia">Serious Pie</td>
+          <td><a href="https://www.yelp.com/map/italian-family-pizza-seattle">316 Virginia St, Seattle, WA 98121</td>
+            <td>(206) 838-7388</td>
+              <td>4</td>
+                <td>Italian, Gluten Free Options, vegetarian friendly. Beware of the tip. </td>
+      </tr>
 
+      <tr>
+        <td><a href="https://modpizza.com/">Mod Pizza</td>
+          <td><a href="https://www.google.com/maps?daddr=1302+6th+Avenue,+One+Union+Square,+Seattle,+WA+98101-2305">1302 6th Avenue, One Union Square, Seattle, WA 98101</td>
+            <td>(206)-332-0200</td>
+              <td>4</td>
+                <td>choose your own which’ll be ready in minutes. Italian, American, vegetarian friendly, Gluten Free Options</td>
+      </tr>
 
-    }
-    td {
-        height: 50px;
-        vertical-align: bottom;
-    padding: 15px;
+      <tr>
+        <td><a href="http://zeekspizza.com/">Zeek's Pizza</td>
+          <td><a href="https://www.google.com/maps/dir/419+Denny+Way,+Seattle,+WA+98109/@47.6183733,-122.3522573,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x5490154f39cf02e9:0x449b479b5c315d4b!2m2!1d-122.3478799!2d47.6183734">419 Denny Way, Seattle, WA 98109-4934</td>
+            <td>(206)-285-8646</td>
+              <td>4.5</td>
+                <td>Italian, Gluten Free Options, vegetarian friendly </td>
+      </tr>
+      <tr>
+        <td><a href="http://www.ilfornaio.com/">Il Fornaio</td>
+          <td><a href="https://www.google.com/maps/dir/600+Pine+St+%23132,+Seattle,+WA+98101/@47.6124928,-122.4054489,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x54906ab4d1cb202d:0xab02cf7d9b5c9f0c!2m2!1d-122.3354092!2d47.6125141">600 Pine St, Ste 132, Seattle, WA 98101-3700 (6th Street)</td>
+            <td>(206)-264-0994</td>
+              <td>4</td>
+                <td>Italian, Gluten Free Options, vegetarian friendly</td>
+      </tr>
 
-    }
-    .subTitle > th{
-      font-size: 15 px;
-      text-align: left;
-      background-color: #78d22d;
-    }
-    tr:hover {
-      background-color: #b9bc8f;
-      color: #8b2789;
-      font-weight: bold;
-      font-family: sans-serif;
-    }
+        
+      </TABLE>
+      </ul>
+    </article>
+    <article>
+    <p><img src="personalpizza.jpg" align="middle"></p>
+    </article>
+    <footer> Sources <a href="https://www.tripadvisor.com/Restaurants-g60878-c31-Seattle_Washington.html">tripadvisor</a> <a href="https://www.yelp.com/search?find_desc=best+pizza&find_loc=Seattle%2C+WA">yelp</a> <a href="http://seattle.eater.com/maps/best-pizza-places-seattle-restaurants">Seattle eater</a>
+    </footer>
+  </body>
+  </html>
